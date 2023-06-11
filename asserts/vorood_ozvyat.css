@@ -1,0 +1,56 @@
+@font-face {
+    font-family: myFirstFon;
+    src: url(B-NAZANIN.TTF);
+}
+body {
+    font-family: myFirstFon;
+    font-size:medium;
+    height: 100%;
+    background-color: #e2f3c0;
+    direction: rtl;
+}
+.div {
+    background-color: #e2f3c0;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100%;
+}
+h3{
+    position:absolute;
+    left: 43%;
+    top: 5%; 
+}
+h4{
+    position:absolute;
+    left: 45%;
+    top: 5%; 
+}
+form{
+    
+    background-position: center;
+    position:absolute; 
+    font-size: 14px;
+    left: 40%;
+    border-radius: 10px;
+    top: 15%;
+    text-align: right;
+}
+
+label{
+    font-size: 1.2em;
+}
+
+
+.form-group{
+    padding: 10px;
+}
+
+.form-check{
+    font-size: 0.8em;
+    margin-right: 20px;
+    color: rgb(110, 129, 129);
+}
+
+
+
